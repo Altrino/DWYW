@@ -5,9 +5,9 @@ public class MainFrame{
         int[] input = new int[2];
         //even indexes are sleep
         //odd indexes are study
-        System.out.println("enter hour of sleep: ");
+        System.out.print("enter hour of sleep: ");
         input[0] = ent.nextInt();
-        System.out.println("enter hours of study: ");
+        System.out.print("enter hours of study: ");
         input[1] = ent.nextInt();
         Neurons one = new Neurons(input[0]);
         Neurons two = new Neurons(input[1]);

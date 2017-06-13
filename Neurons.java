@@ -19,7 +19,12 @@ public class Neurons{
         sum += add;
     }
     
+    public void setOutput(double x){
+        output = 1 / (1 + Math.pow(Math.E, -x));
+    }
+    
     public double getOutput(){
+        output = 1 / (1 + Math.pow(Math.E, -sum));
         return output;
     }
 }
