@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Neurons()
+comment1.params=sum
+comment1.target=Neurons(double)
+comment2.params=function
+comment2.target=Neurons(java.lang.String)
+comment3.params=add
+comment3.target=void\ sum(double)
+comment4.params=
+comment4.target=double\ getOutput()
+numComments=5
